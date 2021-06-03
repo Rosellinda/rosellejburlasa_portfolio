@@ -132,7 +132,12 @@ header {
 
 
 
-
+/* .about_img img{
+    height:400px;
+    width: 400px;
+    border-radius: 20%;
+    border: 2px solid coral;
+} */
 
 /* .home {
     background: url(./css/img/wave.svg);
@@ -140,6 +145,8 @@ header {
     margin: 0;
     padding: 0;
 } */
+
+
 
 footer {
     background-color: black;
@@ -183,6 +190,13 @@ hr {
 #about_me_details, #project_details {
     grid-column: 1/5;
     grid-row-start: 2; 
+}
+
+.about_img img {
+    width: 450px;
+    height:450px;
+    border-radius: 50%;
+    border: 1px solid purple;
 }
 
 /* PROJECT */
@@ -361,4 +375,5 @@ section {
     -webkit-animation: 0.5s draw linear forwards;
     animation: 0.5s draw linear forwards;
 }
+
 
