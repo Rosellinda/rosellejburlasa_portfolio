@@ -1,0 +1,71 @@
+/* TABLET */
+@media only screen and (min-width: 768px){
+    /* ABOUT */
+    #about_me_title, #project_title, #contact_title {
+        font-size: 3.5rem;
+    }
+    hr {
+        margin-top: 30px;
+    }
+    .about_img img {
+        margin-top: 70px;
+    }
+    #contact_details, #about_me_details {
+        font-size: 1.5rem;
+    }
+    .project_list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+    }
+}
+
+
+/* NAVBAR - PC */
+@media only screen and (min-width: 991px){
+
+
+    /* ABOUT */
+    #about_me_title, #project_title, #contact_title {
+        font-size: 4rem;
+    }
+    hr {
+        margin-top: 40px;
+    }
+    .about_img img {
+        margin-top: 40px;
+    }
+    #contact_details, #about_me_details {
+        font-size:2rem;
+    }
+
+    .project_list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 10px;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    #navbar {
+        position: fixed;
+        bottom: -100%;
+        right: 0;
+        width: 100%;
+        transition: 0.5s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #navbar.active {
+        height: calc(100vh - 70px);
+        bottom: 0;
+        width: 100%;
+    }
+
+    #navbar ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
