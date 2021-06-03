@@ -18,6 +18,11 @@
         grid-template-columns: 1fr 1fr;
         grid-gap: 10px;
     }
+    .about_img img {
+        width: 450px;
+        height:400px;
+        margin-top: 30px;
+    }
 }
 
 
@@ -32,9 +37,7 @@
     hr {
         margin-top: 40px;
     }
-    /* .about_img img {
-        margin-top: 40px;
-    } */
+
     #contact_details, #about_me_details {
         font-size:2rem;
     }
@@ -68,7 +71,8 @@
         justify-content: center;
         align-items: center;
     }
-    /* #about_details{
-        fon
+    /* .about_img img {
+        width: 450px;
+        height:450px;
     } */
 }
